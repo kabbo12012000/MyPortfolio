@@ -4,21 +4,21 @@ function Projects() {
             {
                 title: "House Rent Prediction Model",
                 description: "AI-powered model that accurately predicts house rental prices based on location, amenities, and market trends. Uses regression and deep learning techniques for precise forecasting.",
-                image: "/IMAGES/house-rent.jpeg", 
+                image: "./images/house-rent.jpeg", 
                 tags: ["Machine Learning", "Real Estate", "Regression", "Data Science"],
                 github: "https://github.com/YOUR_GITHUB_REPO_HERE"
             },
             {
                 title: "Emotion in Music Analysis",
                 description: "Deep learning-based system that interprets emotions in music by analyzing audio signals, tempo, and tone. Utilizes AI to categorize tracks into emotional spectrums.",
-                image: "/IMAGES/music.jpeg", 
+                image: "./imagesmusic.jpeg", 
                 tags: ["AI", "Deep Learning", "Music Analysis", "Emotion Recognition"],
                 github: "https://github.com/YOUR_GITHUB_REPO_HERE"
             },
             {
                 title: "AI Chat Assistant",
                 description: "Advanced conversational AI chatbot leveraging NLP and transformer models to engage in natural, human-like interactions. Supports multi-language and contextual understanding.",
-                image: "/IMAGES/chatbot.jpeg", 
+                image: "./imageschatbot.jpeg", 
                 tags: ["NLP", "AI Chatbot", "Transformers", "Conversational AI"],
                 github: "https://github.com/YOUR_GITHUB_REPO_HERE"
             }
