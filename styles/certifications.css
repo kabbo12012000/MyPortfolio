@@ -1,0 +1,50 @@
+.certification-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 100%;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+    border-color: #6c2bd9;
+}
+
+.certification-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #6c2bd9, #8347e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.certification-meta {
+    font-size: 0.875rem;
+    color: #a0aec0;
+}
+
+.verify-button {
+    background: linear-gradient(135deg, #6c2bd9, #8347e5);
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: opacity 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.verify-button:hover {
+    opacity: 0.9;
+}
+
+.issuer-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(108, 43, 217, 0.3);
+}

@@ -1,0 +1,88 @@
+/* 🟣 Contact Section Background (Only for Contact) */
+#contact {
+    background: url('/IMAGES/contact.jpeg') no-repeat center center/cover;
+    position: relative;
+    padding: 60px 0;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75); /* Dark overlay */
+    backdrop-filter: blur(10px); /* Blurred effect */
+    z-index: 0;
+}
+
+#contact .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* 🟣 Contact Form Styling */
+#contact .contact-form {
+    background-color: rgba(255, 255, 255, 0.08); /* Solid card */
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* 🟣 Input Fields */
+#contact .form-input {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    color: #ffffff;
+}
+
+#contact .form-input:focus {
+    outline: none;
+    border-color: #6c2bd9;
+}
+
+/* 🟣 Submit Button */
+#contact .submit-button {
+    background: linear-gradient(135deg, #6c2bd9, #8347e5);
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: opacity 0.3s ease, transform 0.2s ease-in-out;
+}
+
+#contact .submit-button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+/* 🟣 Contact Info Section */
+#contact .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* 🟣 Social Icons */
+#contact .social-icon {
+    font-size: 1.8rem;
+    color: #a0aec0;
+    transition: color 0.3s ease, transform 0.2s;
+}
+
+#contact .social-icon:hover {
+    color: #6c2bd9;
+    transform: scale(1.2);
+}
+
+#contact .social-icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
