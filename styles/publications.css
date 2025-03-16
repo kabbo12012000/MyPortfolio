@@ -28,7 +28,7 @@
 }
 .bg-gray-901 {
     background: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.968)), 
-                url('/IMAGES/research.jpeg');
+                url('/images/research.jpeg');
     background-blend-mode:darken;
     position: relative;
     padding: 60px 0;

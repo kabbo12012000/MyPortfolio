@@ -15,7 +15,7 @@
 
 .hero-section {
     background: linear-gradient(rgba(10, 10, 26, 0.771), rgba(10, 10, 26, 0.837)),
-    url('/IMAGES/bg1.jpeg') center/cover no-repeat;
+    url('/images/bg1.jpeg') center/cover no-repeat;
     min-height: 100vh;
     display: flex;
     align-items: center;

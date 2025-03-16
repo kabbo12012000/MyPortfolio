@@ -1,7 +1,7 @@
 /* Expertise Section Background */
 .bg-gray-90 {
     background: linear-gradient(rgba(0, 0, 0, 0.344), rgba(0, 0, 0, 0.968)), 
-                url('/IMAGES/expertise.jpeg');
+                url('/images/expertise.jpeg');
     background-blend-mode:darken;
     position: relative;
     padding: 60px 0;

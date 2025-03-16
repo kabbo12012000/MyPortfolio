@@ -1,6 +1,6 @@
 /* 🟣 Contact Section Background (Only for Contact) */
 #contact {
-    background: url('/IMAGES/contact.jpeg') no-repeat center center/cover;
+    background: url('/images/contact.jpeg') no-repeat center center/cover;
     position: relative;
     padding: 60px 0;
 }
