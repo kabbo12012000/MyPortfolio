@@ -11,14 +11,14 @@ function Projects() {
             {
                 title: "Emotion in Music Analysis",
                 description: "Deep learning-based system that interprets emotions in music by analyzing audio signals, tempo, and tone. Utilizes AI to categorize tracks into emotional spectrums.",
-                image: "./imagesmusic.jpeg", 
+                image: "./images/music.jpeg", 
                 tags: ["AI", "Deep Learning", "Music Analysis", "Emotion Recognition"],
                 github: "https://github.com/YOUR_GITHUB_REPO_HERE"
             },
             {
                 title: "AI Chat Assistant",
                 description: "Advanced conversational AI chatbot leveraging NLP and transformer models to engage in natural, human-like interactions. Supports multi-language and contextual understanding.",
-                image: "./imageschatbot.jpeg", 
+                image: "./images/chatbot.jpeg", 
                 tags: ["NLP", "AI Chatbot", "Transformers", "Conversational AI"],
                 github: "https://github.com/YOUR_GITHUB_REPO_HERE"
             }
